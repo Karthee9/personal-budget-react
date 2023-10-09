@@ -5,7 +5,7 @@ import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
 import { useEffect, useState } from 'react';
 import Menu from './Menu/Menu';
-import HomePage from './HomePage/HomePage';
+import HomePage from './Homepage/Homepage';
 import Hero from './Hero/Hero';
 import Footer from './Footer/Footer';
 import Charts from './charts/charts';
@@ -15,7 +15,7 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js/auto';
 import Chartd from './chart data/chartdata';
 Chart.register(ArcElement, Tooltip, Legend);
 
-const baseUrl = "http://localhost:3000/budget"
+const baseUrl = "http://localhost:3001/budget"
 
 function App() {
   const [dataSource, setDataSource] = useState({
